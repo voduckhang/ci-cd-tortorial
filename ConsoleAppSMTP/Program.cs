@@ -49,7 +49,7 @@ namespace ConsoleAppSMTP
             string s = bytes;
             Console.WriteLine("The base 64 string:\n   {0}\n", s);
 
-            // Restore the byte array.
+            // Restore the byte array. Ok let's testing CICD
             Console.WriteLine("The restored byte array: ");
             Console.WriteLine("   {0}\n", credentialPhase);
             Console.ReadKey();
